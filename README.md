@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://example.com/path/to/your/banner-image.png](https://i.pinimg.com/originals/71/31/77/713177e7b221e3d2570237268fd19c6e.gif)" alt="Banner">
+  <img src="(https://i.pinimg.com/originals/71/31/77/713177e7b221e3d2570237268fd19c6e.gif)" alt="Banner">
 </p>
 
 
