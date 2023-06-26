@@ -22,13 +22,13 @@ To get started with the PokemonFights app, follow the steps below:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/PokemonFights.git
+   git clone https://github.com/MohammadToumouk/Pokemon-Fights.git
    ```
 
 2. Change into the project's directory:
 
    ```bash
-   cd PokemonFights
+   cd Pokemon-Fights
    ```
 
 3. Install the project dependencies:
