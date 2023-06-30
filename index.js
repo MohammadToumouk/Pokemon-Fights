@@ -1,11 +1,19 @@
-const express = require('express')
-const cors = require('cors')
-const app = express()
-const port = 4090
-require ('dotenv').config
+const express = require('express');
+const cors = require('cors');
+const pokeRouter = require('../Pokemon-Fights/Backend_Router/pokemon');
 
-app.use(express.json())
-app.use(cors())
+const app = express();
+const port = 4090;
+
+
+app.use(express.json());
+app.use(cors());
+app.use('/pokemon', pokeRouter);
+
+
+// app.route('/').get((req, res) => {
+//     res.send('Hello World');
+//   });
 
 
 app.listen(port, () => {
