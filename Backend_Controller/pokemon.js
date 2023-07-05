@@ -1,4 +1,4 @@
-const allPokemon = require("../pokemon.json");
+const allPokemon = require("../ViteApp/src/components/pokemon.json");
 
 
 const getAllPoke = async (req, res, next) => {
